@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-connect-contact-lens`](https://www.npmjs.com/package/@aws-sdk/client-connect-contact-lens/v/3.913.0).
+[`@aws-sdk/client-connect-contact-lens`](https://www.npmjs.com/package/@aws-sdk/client-connect-contact-lens/v/3.914.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.913.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.914.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-AV8Vbh+/oQvJIIcE5VgupOHICw11kGv9ByZzWHtks4w/0hFEJ597cdIdGE0nDSpN
+sha384-YwAMsspcGvN0FFL7ryEG3aVRLyX7c0qNCYh6UCFSOz0kZ3hG4oq+OyO1WkvV8dHH
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-connect-contact-lens": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.913.0/index.min.mjs"
+            "@aws-sdk/client-connect-contact-lens": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.914.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.913.0/index.min.mjs": "sha384-AV8Vbh+/oQvJIIcE5VgupOHICw11kGv9ByZzWHtks4w/0hFEJ597cdIdGE0nDSpN"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.914.0/index.min.mjs": "sha384-YwAMsspcGvN0FFL7ryEG3aVRLyX7c0qNCYh6UCFSOz0kZ3hG4oq+OyO1WkvV8dHH"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-connect-contact-lens": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.913.0/index.min.mjs"
+                        "@aws-sdk/client-connect-contact-lens": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.914.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.913.0/index.min.mjs": "sha384-AV8Vbh+/oQvJIIcE5VgupOHICw11kGv9ByZzWHtks4w/0hFEJ597cdIdGE0nDSpN"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect-contact-lens@3.914.0/index.min.mjs": "sha384-YwAMsspcGvN0FFL7ryEG3aVRLyX7c0qNCYh6UCFSOz0kZ3hG4oq+OyO1WkvV8dHH"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.913.0`)
+* Always pin to a specific version (`@3.914.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-connect-contact-lens/blob/refs/tags/3.913.0/LICENSE
+https://github.com/cloud-sdk-builds/client-connect-contact-lens/blob/refs/tags/3.914.0/LICENSE
 ```
 
 ---
